@@ -1,0 +1,35 @@
+/* Regole generali */
+
+body {
+  background: pink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colonne */
+
+[class*="col-"] {
+  border: 1px black solid;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  background: #ca3c55;
+}
+
+.footer .col-6 [class*="col-"] {
+  border: solid 4px pink;
+}
