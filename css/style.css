@@ -1,6 +1,7 @@
 /* Regole generali */
 
 body {
+  /* DEBUG */
   background: pink;
 }
 
@@ -27,6 +28,7 @@ p {
 }
 
 .footer {
+  /* DEBUG */
   background: #ca3c55;
 }
 
