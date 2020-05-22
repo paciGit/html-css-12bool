@@ -15,12 +15,6 @@
   clear: both;
 }
 
-.foot::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 [class*="col-"] {
   float: left;
 }
